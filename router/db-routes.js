@@ -1,15 +1,17 @@
 const db = require('../models');
-
 module.exports = (app) => {
+  // app.get('/env', (req, res) => {
+  //   const
+  // });
   // GET route for all of the spots data
-  app.get('/api/spots', (req, res) => {
+  app.get('/db/spots', (req, res) => {
     // .findAll to get all the data from mySQL database
     db.spots.findAll({})
       .then((spots) => res.json(spots))
         .catch((err) => res.stats(401).json(err));
   });
 
-  app.get('/api/spots/:id', (req, res) => {
+  app.get('/db/spots/:id', (req, res) => {
     db.spots.findOne({
       where: {
         id: req.params.id
@@ -19,7 +21,7 @@ module.exports = (app) => {
   });
 
   // POST route for add new spots info
-  app.post('/api/spots', (req, res) => {
+  app.post('/db/spots', (req, res) => {
     // .create to add new data to mySQL database
     db.spots.create({
       name: req.body.name,
@@ -34,7 +36,7 @@ module.exports = (app) => {
         .catch((err) => res.stats(401).json(err));
   });
   // PUT route for update spots info
-  app.put('/api/spots', (req, res) => {
+  app.put('/db/spots', (req, res) => {
     // .update to update the data from mySQL database
     db.spots.update({
       name: req.body.name,

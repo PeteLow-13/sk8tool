@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Viewparks() {
+function ViewParks() {
     return (
         <div>
-            
+            Parks
         </div>
     )
 }
 
-export default Viewparks
+export default ViewParks
