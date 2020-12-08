@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Addspot() {
+function AddSpot() {
     return (
         <div>
-            
+            Add
         </div>
     )
 }
 
-export default Addspot
+export default AddSpot

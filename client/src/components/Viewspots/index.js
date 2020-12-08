@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Viewspots() {
+function ViewSpots() {
     return (
         <div>
-            
+            Spots
         </div>
     )
 }
 
-export default Viewspots
+export default ViewSpots

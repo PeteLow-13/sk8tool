@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Viewshops() {
+function ViewShops() {
     return (
         <div>
-            
+            Shop
         </div>
     )
 }
 
-export default Viewshops
+export default ViewShops
