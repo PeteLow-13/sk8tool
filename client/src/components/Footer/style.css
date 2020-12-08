@@ -1,0 +1,19 @@
+.footer {
+    margin: 5px;
+    min-height: 40px;
+    position: relative;
+    padding: 10px;  
+}
+  
+.footer span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3px;
+    text-align: center;
+}
+a{
+    color:rgba(33, 207, 85, 0.671);
+    text-shadow: 1px 1px 1px black;
+}
