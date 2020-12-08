@@ -1,0 +1,11 @@
+.nav-btn{
+    background-color: rgba(33, 207, 85, 0.671);
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    border-radius:12px;
+    width: 140px;
+    max-width: 50%;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 0, 0.527);
+    margin: 5px;
+}

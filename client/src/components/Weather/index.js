@@ -1,9 +1,10 @@
 import React from 'react'
+import Container from '../Container'
 
 function Weather() {
     return (
         <div>
-            Weather
+            <Container>Weather</Container>
         </div>
     )
 }

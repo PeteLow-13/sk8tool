@@ -1,9 +1,10 @@
 import React from 'react'
+import Container from '../Container'
 
 function ViewParks() {
     return (
         <div>
-            Parks
+            <Container>Parks</Container>
         </div>
     )
 }

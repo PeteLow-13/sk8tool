@@ -4,6 +4,7 @@ import ViewShops from '../ViewShops';
 import ViewSpots from '../ViewSpots';
 import Weather from '../Weather';
 import AddSpot from '../AddSpot';
+import Container from '../Container';
 
 
 
@@ -40,7 +41,12 @@ function Display({cityInput, displayContain}) {
         default:
             return (
                 <div>
-                    <p>Heres where the display will go</p>
+                    <Container>
+                        <div id='current-time'></div>
+                        <div id='current-weather'></div>
+                        <h2>Welcome to Sk8Tool.</h2>
+                        <p>Use our tools to find Skateshops, Skateparks or access our list of user added Skatespots near and far. Enter a city to find out what's near you</p>
+                    </Container>
                 </div>
             )
     }

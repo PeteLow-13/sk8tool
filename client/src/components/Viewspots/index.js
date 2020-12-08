@@ -1,9 +1,10 @@
 import React from 'react'
+import Container from '../Container'
 
 function ViewSpots() {
     return (
         <div>
-            Spots
+            <Container>Spots</Container>
         </div>
     )
 }
