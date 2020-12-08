@@ -1,10 +1,12 @@
 import React from 'react'
 import Container from '../Container'
 
-function ViewShops() {
+function ViewShops({city}) {
     return (
         <div>
-            <Container>Shop</Container>
+            <iframe
+            src={`https://www.google.com/maps/embed/v1/search?q=record+skateshop+in+${city}&key=${process.env.REACT_APP_GOOGLE_MAP_APIKEY}`}
+            />
         </div>
     )
 }
