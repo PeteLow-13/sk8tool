@@ -1,0 +1,15 @@
+.container {
+    background-color: rgba(4, 110, 96, 0.301);;
+    text-shadow: .5px .5px .5px hotpink;
+    font-weight: bold;
+    height: auto;
+    width: 100%;
+    margin: 5px;
+    margin-right: 5px;
+    border-style: solid;
+    border-color: hotpink;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.527);
+    padding: 10px;
+}

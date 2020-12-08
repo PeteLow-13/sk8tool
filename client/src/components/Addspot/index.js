@@ -1,9 +1,10 @@
 import React from 'react'
+import Container from '../Container'
 
 function AddSpot() {
     return (
         <div>
-            Add
+            <Container>Add</Container>
         </div>
     )
 }
