@@ -1,7 +1,7 @@
 .container {
     background-color: rgba(4, 110, 96, 0.301);;
     text-shadow: .5px .5px .5px hotpink;
-    font-weight: bold;
+    /* font-weight: bold; */
     height: auto;
     width: 100%;
     margin: 5px;
