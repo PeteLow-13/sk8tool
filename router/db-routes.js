@@ -1,7 +1,8 @@
 const db = require('../models');
+
 module.exports = (app) => {
   // app.get('/env', (req, res) => {
-  //   const
+  //   res.json(process.env.REACT_APP_OPEN_WEATHER_APIKEY);
   // });
   // GET route for all of the spots data
   app.get('/db/spots', (req, res) => {
