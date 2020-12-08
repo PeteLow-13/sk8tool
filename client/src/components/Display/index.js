@@ -20,11 +20,15 @@ function Display({cityInput, displayContain}) {
     switch(contain) {
         case 'parks':
             return (
-                <ViewParks/>
+                <ViewParks
+                    city={city}
+                />
             )
         case 'shops':
             return (
-                <ViewShops/>
+                <ViewShops
+                    city={city}
+                />
             )
         case 'spots':
             return (

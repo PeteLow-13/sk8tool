@@ -1,7 +1,11 @@
-import React from 'react'
+import React,{ useEffect, useState } from 'react'
 import Container from '../Container'
 
 function AddSpot() {
+    const [spotName, setSpotName] = useState('');
+    const [spotCity, setSpotCity] = useState('');
+    const [crossStreets, setCrossStreets] = useState('');
+    const [location, setLocation] = useState({});
     return (
         <div>
             <Container>
@@ -20,7 +24,7 @@ function AddSpot() {
                     <br/>
                     <label for='cross-streets'>OR add the closest cross streets:</label>
                     <input class='cross-streets' id='cross-streets' placeholder='Example: 9th and pine'/>
-                    
+
                     <div class='security' id='security'>
                     <label for="security-switch">Is there security at the spot?</label>
                     <br/>

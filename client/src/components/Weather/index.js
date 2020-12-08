@@ -42,11 +42,6 @@ function Weather({city}) {
             </Container>
         </div>
     )
-    // const fDate = new Date(response.daily[i].dt * 1000);
-    // const fTemp = (((response.daily[i].temp.max - 273.15) * (9 / 5) + 32).toFixed(0));
-    // const fLowTemp = (((response.daily[i].temp.min - 273.15) * (9 / 5) + 32).toFixed(0));
-    // const fHumidity = response.daily[i].humidity;
-    // const fIcon = response.daily[i].weather[0].icon;
 }
 
 export default Weather

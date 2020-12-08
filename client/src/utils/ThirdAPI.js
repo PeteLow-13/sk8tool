@@ -1,12 +1,15 @@
 import axios from 'axios';
 const {REACT_APP_OPEN_WEATHER_APIKEY} = process.env;
-
+const {REACT_APP_GOOGLE_MAP_APIKEY} = process.env;
 export default {
   getCityLocaltion: (city) => {
     return axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${REACT_APP_OPEN_WEATHER_APIKEY}`)
   },
   getCityWeather: (latitude, longitude) => {
     return axios.get(`https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${REACT_APP_OPEN_WEATHER_APIKEY}`)
+  },
+  getGoogleMapAPI: () => {
+    return `${REACT_APP_GOOGLE_MAP_APIKEY}`
   }
 
 

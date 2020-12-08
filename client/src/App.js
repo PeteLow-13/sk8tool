@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Display from "./components/Display";
 
 function App() {
+  // console.log(process.env)
   const [displayContain, setDisplayContain] = useState('');
   const [cityInput, setCityInput] = useState('');
 
