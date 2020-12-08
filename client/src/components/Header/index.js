@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../Container'
-import NavButtons from '../NavButtons'
+import NavButtons from '../NavButtons';
 
 function Header({changeDisplay, handleInputChange, cityInput}) {
     return (

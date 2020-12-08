@@ -15,8 +15,8 @@ function Display({cityInput, displayContain}) {
         setContain(displayContain);
         setCity(cityInput);
     });
-    console.log('display: ', city);
-    console.log('display: ', contain);
+    // console.log('display: ', city);
+    // console.log('display: ', contain);
     switch(contain) {
         case 'parks':
             return (
@@ -36,7 +36,9 @@ function Display({cityInput, displayContain}) {
             )
         case 'weather':
             return (
-                <Weather/>
+                <Weather
+                    city={city}
+                />
             )
         default:
             return (
